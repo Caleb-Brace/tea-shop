@@ -3,29 +3,33 @@
     padding: 0;
 }
 
+.super-container{
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+}
+
 html{
     background-color: black;
     font-family: Helvetica;
     font-size: 22px;
     color:seashell;
-    max-width: 50%;
+    max-width: 100%;
     margin: auto;
     opacity: .9;
     
 }
 
-body{
-    margin:0;
-}
 .intro-container{
+    min-width: 50%;
     width: 1200px;
-    margin-bottom: 0px;
     height: 69px;
     display: flex;
     z-index: 3;
     background: black;
     justify-content: space-between;
     border-bottom: 1px solid seashell;
+    align-items: center;
 }
 header{
     position: sticky;
@@ -38,16 +42,17 @@ header{
     height: 700px;
     width: 1200px;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
-    background-repeat: no-repeat;
 }
 
 .intro-nav li{
+    flex: auto;
     color: seashell;
     list-style: none;
     display: inline-flex;
 }
 
-.fall-berry{
+.selection{
+    text-align: center;
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -57,14 +62,27 @@ header{
 .mission-text{
     top: 300px;
     position: relative;
-   text-align: center;
+    text-align: center;
     background: black;
+    z-index: 1;
 }
 
 .logo{
     height: 50px;
 }
 
+.tea-option{
+    align-content: center;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
 .tea-month{
     text-align: center;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+.intro-nav a{
+    color: seashell;
 }
