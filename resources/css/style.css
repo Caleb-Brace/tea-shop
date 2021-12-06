@@ -3,7 +3,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-family: Helvetica;
+    font-family: 'Bitter' , serif;
     font-size: 22px;
     background-color: black;
     color: seashell;
@@ -112,3 +112,13 @@ a:hover{
     opacity: .5;
 }
  
+footer{
+    height: 200px;
+    text-align: center;
+}
+.copyright{
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-family: serif;
+}
